@@ -1,0 +1,475 @@
+* {
+    margin: 0;
+    font-family: arial;
+    color: rgb(255, 255, 255);
+}
+
+.navbar {
+    height: 60px;
+    background-color: black;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+    padding-top: 10px;
+}
+
+.logo {
+    background-image: url(amazon\ logo.jpg);
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    background-size: cover;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid rgb(255, 255, 255);
+
+}
+
+.add-first {
+    font: 100;
+    color: #e2dde0;
+}
+
+.add-sec {
+    font: bold;
+    color: rgb(255, 255, 255);
+}
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    background-color: rgb(238, 14, 167);
+    border-radius: 10px;
+}
+
+.search-select {
+    text-align: center;
+    background-color: rgb(16, 141, 45);
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.search-input {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(228, 228, 228);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: larger;
+    width: 100%;
+}
+
+.search-icon {
+    margin-top: 20px;
+}
+
+::placeholder {
+    color: black;
+    text-align: center;
+
+}
+
+.search-en {
+    text-align: center;
+    background-color:rgb(238, 14, 167) ;
+    margin-top: 18px;
+}
+
+.sign-in {
+    margin-top: 5px;
+
+}
+
+.account {
+    text-align: center;
+    background-color: rgb(238, 14, 167);
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.return {
+    display: flex;
+    padding-top: 5px;
+    background-color:rgb(238, 14, 167) ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+}
+
+.cart {
+
+    margin-top: 15px;
+}
+.panel-select{
+    background-color: rgb(16, 141, 45);
+}
+.panel {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(156, 192, 122);
+}
+
+.title{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(238, 14, 167);
+    padding-top: 10px;
+}
+.boxes{
+    display: flex;
+   justify-content: space-between;
+   background-color:rgb(238, 14, 167);
+   margin-top: 0%;
+}
+.box1{
+    height: 250px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: rgb(241, 235, 230);
+}
+.box2{
+    height: 250px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: rgb(241, 235, 230);
+}
+.box2{
+    height: 250px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: rgb(241, 235, 230);
+}
+.box3{
+    height: 250px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: rgb(241, 235, 230);
+}
+
+.para{
+    color: rgb(1, 1, 1);
+    text-align: center;
+    text-decoration: underline;
+}
+img{
+    height: 200px;
+    width: 350px;
+    margin-left: 20px;
+    margin-top: 5px;
+    border-radius: 15px;
+    border: solid black;
+}
+.box4{
+    height: 250px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: rgb(241, 235, 230);
+}
+.box5{
+    height: 250px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: rgb(241, 235, 230);
+}
+.box6{
+    height: 250px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: rgb(241, 235, 230);
+}
+.p1{
+    color: black;
+    height: 25px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(156, 192, 122);
+    font-size: larger;
+}
+.bg{
+    height: 300px;
+    width: 1260px;
+    margin-left: 0%;
+    margin-top: 0%;
+}
+.box7{
+    height: 250px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: rgb(241, 235, 230);
+}
+.box8{
+    height: 250px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: rgb(241, 235, 230);
+}
+.box9{
+    height: 250px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: rgb(241, 235, 230);
+}
+.earphones{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(98, 94, 94);
+    
+}
+.box10{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(16, 185, 72);
+    
+}
+.box11{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(200, 232, 19);
+}
+.box12{
+    height: 200px;
+    width: 200px;
+    background-color:  rgb(16, 185, 72);
+}
+.box13{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(234, 17, 17);
+}
+.box14{
+    height: 200px;
+    width: 200px;
+    background-color:   rgb(200, 232, 19);
+}
+.box15{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(219, 18, 18);
+}
+.smallbox{
+    margin-left: 50px;
+    margin-top: 50px;
+    height: 120px;
+    width: 120px;
+    
+}
+.bbox1{
+    display: flex;
+    justify-content: space-evenly;
+    height: 350px;
+    width: 100%;
+    background-color: bisque;
+}
+.box16{
+    margin-top: 5px;
+    display:flex;
+    justify-content: space-evenly;
+    height: 340px;
+    width: 300px;
+    border: solid black;
+}
+.ubox1{
+    height: 120px;
+    width: 120px;
+    margin-top: 5px;
+    border: solid black;
+    border-radius: 50%;
+}
+.ubox2{
+    height: 120px;
+    width: 120px;
+    margin-top: 5px;
+    border: solid black;
+    border-radius: 50%;
+}
+
+
+.box17{
+    margin-top: 2px;
+    height: 340px;
+    width: 300px;
+    border: solid black;
+}
+.lehenga{
+height: 320px;
+width: 250px;
+}
+.box18{
+    margin-top: 2px;
+    height: 340px;
+    width: 300px;
+    border: solid black;
+}
+.popcorn{
+    height: 320px;
+    width: 250px;
+    }
+.box19{
+    margin-top: 2px;
+    height: 340px;
+    width: 300px;
+    border: solid black;
+}
+.beverage{
+    height: 320px;
+    width: 250px;
+    }
+.groceries{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(193, 189, 193);
+}
+.gbox{
+    margin-top: 20px;
+    height: 250px;
+    width: 200px;
+    border: solid black;
+}
+.grocimg{
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+}
+.gpara{
+    text-align: center;
+    color: rgb(0, 17, 255);
+    font-size: small;
+    font: bolder;
+    font-style:italic;
+}
+.price{
+    text-align: center;
+    color: rgb(36, 36, 36);
+}
+.amazonprime{
+    height: 400px;
+    width: 100%;
+    background-image: url(money\ heist.webp);
+}
+.amazonhead{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(173, 49, 49);
+}
+.hollywoodtitle{
+    height: 25px;
+    width: 100%;
+    margin-top: 5px;
+    background-color: blueviolet;
+}
+.hollywoodpara{
+    text-align: center;
+   
+    
+}
+.prime{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(10, 195, 204);
+}
+.primebox{
+    margin-top: 20px;
+    height: 250px;
+    width: 200px;
+    border: solid black;
+    border-radius: 30%;
+}
+.primeimg{
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+}
+.primepara{
+    text-align: center;
+    color: rgb(228, 7, 29);
+    font-size: small;
+    font: bolder;
+    font-style:italic;
+}
+.footersign{
+     height: 150px;
+     width: 100%;
+     background-color: rgb(212, 64, 28);
+}
+.footersignpara{
+    text-align: center;
+    padding-top: 35px;
+}
+.signin{
+    background-color: rgb(192, 199, 9);
+    margin-left: 44%;
+    margin-top: 15px;
+}
+.footersigncustomer{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.backtotop{
+    height: 35px;
+   width: 100%;
+   color: black;
+background-color: rgb(78, 78, 78);
+}
+.b2t{
+    text-align: center;
+    color: rgb(232, 232, 232);
+    font-size: smaller;
+    padding-top: 5px;
+}
+.footer{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #131a22;
+}
+.footerbox1{
+    height: 200px;
+    width: 200px;
+
+}
+.footerpara{
+    margin-top: 35px;
+}
+
+.footer2{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #282929;
+}
+.footer2para{
+    text-align: center;
+    font-size: small;
+    margin-top: 15px;
+}
+.footeramazon{
+    height: 40px;
+    width: 60px;
+    justify-content: left;
+    margin-left: 5px;
+    margin-top: 15px;
+
+}
